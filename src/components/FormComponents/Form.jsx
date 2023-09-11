@@ -71,7 +71,7 @@ export const Form = ({ getValuesForm }) => {
 
   return (
     <>
-      <form className="flex flex-col gap-2" onSubmit={handleForm}>
+      <form className="flex flex-col gap-4" onSubmit={handleForm}>
 
         <div className="flex flex-col gap-6">
           <section className="flex justify-between sm:justify-start sm:gap-8">
@@ -102,7 +102,7 @@ export const Form = ({ getValuesForm }) => {
 
         <Button valueBtn={<img src={arrowDown} alt="arrow-down" className="w-8" />} />
         
-        <hr className="relative top-[-2.5rem]"></hr>
+        <hr className="relative top-[-3rem]"></hr>
       </form>
 
     </>
